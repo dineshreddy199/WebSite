@@ -1,0 +1,188 @@
+#body{
+ height: 1550px;
+}
+nav{
+    position: absolute;
+}
+.icons{
+    position: absolute;
+    top: 1450px;
+}
+.container12{
+    background-color: red;
+    width: 500px;
+    height: 1200px;
+    border: 3px solid black;
+    border-radius: 25% 25% 8% 8%;
+    position: absolute;
+    top: 120px;
+}
+.seat1{
+    background-color: rgb(237, 153, 153);
+    border-radius: 25% 25% 5% 5%;
+    width: 480px;
+    height: 1170px;
+    position:relative;
+    top: 20px;
+    left: 10px;
+}
+.DashBoard{
+   background-color: #c93e3e;
+   width: 150px;
+   height: 110px;
+   text-align: center;
+   position: relative;
+   top: 10px;
+   left: 240px;
+}
+.DashBoard1{
+   background-color:red;
+   width: 455px;
+   height: 10px;
+   position: relative;
+   top: 30px;
+   left: 12px;
+}
+.seatingRight{
+    background-color: rgba(253, 253, 253, 0.5316);
+    width: 275px;
+    height: 1000px;
+    border-radius: 10px 12% 3% 10px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+.seatingLeft{
+    background-color: rgba(253, 253, 253, 0.5316);
+    width: 105px;
+    height: 1000px;
+    text-align:center;
+    /* border-radius: 13% 0px 0px 0px; */
+    position: relative;
+    top:-960px;
+    left: 10px;
+
+}
+.Slower1{
+    background-color:  #c93e3e;
+    width:90px ;
+    height:180px ;
+    border: 4px solid rgb(146, 38, 38);
+    position: relative;
+    border-radius: 5px 40px 40px 5px;
+    top: 21px;
+    left: 7.5px;
+}
+.Supper1{
+    background-color:  #c93e3e;
+    width:90px ;
+    height:180px ;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius: 5px 40px 40px 5px;
+    position: relative;
+    top: 10px;
+    left: 7.5px;
+}
+.Slower2{
+    background-color: #c93e3e;
+    width:90px ;
+    height:180px ;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius: 5px 40px 40px 5px;
+    position: relative;
+    top: 45px;
+    left: 7.5px;
+}
+.Supper2{
+    background-color: #c93e3e;
+    width:90px ;
+    height:180px ;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius: 5px 40px 40px 5px;
+    position: relative;
+    top: 30px;
+    left: 7.5px;
+}
+.Slower3{
+    background-color: #c93e3e;
+    width:90px ;
+    height:180px ;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius: 5px 40px 40px 5px;
+    position: relative;
+    top: 65px;
+    left: 7.5px;
+}
+.Fupper{
+    background-color: #a53737;
+    width:260px ;
+    height:55px;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+
+}
+.Flower{
+    background-color: #a53737;
+    width:260px ;
+    height: 60px;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius:20px 20px 0px 0px ;
+    position: relative;
+    top: 20px;
+    left: 5px;
+
+}
+.Bupper{
+    background-color: #c93e3e;
+    width:260px ;
+    height:55px;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+
+}
+.Blower{
+    background-color: #c93e3e;
+    width:260px ;
+    height: 65px;
+    border: 4px solid rgb(146, 38, 38);
+    border-radius:20px 20px 0px 0px ;
+    position: relative;
+    top: 30px;
+    left: 5px;
+
+}
+#button{
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    z-index: 1;
+    border: 2px solid ;
+    border-radius: 30px;
+    background-color: coral;
+    font-size: 26px;
+    font-weight: 900;
+    position: absolute;
+    top: 1350px;
+}
+
+#button:hover{
+    width: 250px;
+    height: 70px;
+    z-index: 1;
+    background-color: green;
+    font-size: 26px;
+    border-radius: 40%;
+    font-weight: 900;
+    position: absolute;
+    top: 1350px;
+}
+#popup:hover{
+    background-color: green;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(./img/black.png);
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    padding: 30px 8%;
+    background-color:rgb(20, 90, 20);
+}
+.logo{
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.1s ease-out;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.glass img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -7px;
+    transition: 0.1s ease;
+} 
+img:hover{
+    border: 2px solid #fff;
+}
+.icons i{
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+
+    background-color:rgb(20, 90, 20);
+}
+.icons ul{
+    flex: 1;
+    text-align: right;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+.icons ul li i{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+.icons ul li i:hover{
+    color: aqua;
+}
+.slide{
+    position: relative;
+    left: 20px;
+    width: 1200px;
+}
+.slide img{
+    border: 2px solid black;
+    height: 900px;
+    cursor: pointer;
+    margin-top: 13px;
+    transition: 0.1s ease;
+} 
+.adds{
+    display: flex;
+    margin:15px 0px -15px 0px;
+    
+}
+.adds img{
+    width: 40%;
+    margin: 20px 60px 5px 60px;
+
+}
+#links{
+    margin-top: 15px;
+    position: relative;
+    left: 200px;
+    width: 800px;
+    height: 180px;
+    background-color: hsla(0, 0%, 100%, 0.4);
+}
+#links img{
+    width: 150px;
+    border-radius: 50%;
+    margin: -3px 20px 0px 20px;
+
+}
+#links img:hover{
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.444);
+}

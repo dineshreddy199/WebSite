@@ -1,0 +1,32 @@
+body{
+    height: 750px;
+}
+#banner{
+    background-image: url(./img/Wishes.gif);
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+}
+#box1{
+    background-color: #ffffff8e;
+    text-align: center;
+    margin-top: 20px;
+}
+#box2{
+    background-color: rgba(0, 255, 255, 0.143);
+    width: 700px;
+    font-size: 38px;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    margin: 20px 0px;
+}
+#box3{
+    background-color: hwb(0 100% 0% / 0.16);
+    margin:10px 23px;
+    width: 750px;
+    text-align: center;
+    font-size: 68px;
+}
